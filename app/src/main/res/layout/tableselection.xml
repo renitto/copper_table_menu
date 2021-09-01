@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/choosetable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tv_select_table"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="Please Choose the Table "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/tv_select_table"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"></Spinner>
+
+    <TextView
+        android:elevation="5dp"
+        android:textColor="#9E9E9E"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:typeface="sans"
+        android:textSize="50sp"
+        android:text="15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/bt_next"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="NEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_myorders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="80dp"
+        />
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="Proceed"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+</RelativeLayout>
